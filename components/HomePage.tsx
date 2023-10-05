@@ -3,6 +3,8 @@ import Header from './Header'
 import HeroSection from './HeroSection'
 import Section from './Section'
 import Footer from './Footer'
+import ChatBot from './ChatBot'
+
 
 const HomePage = () => {
     return (
@@ -11,6 +13,7 @@ const HomePage = () => {
             <HeroSection />
             <Section />
             <Footer />
+            <ChatBot />
         </div>
     )
 }
