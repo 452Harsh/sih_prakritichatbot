@@ -3,8 +3,10 @@ import ChatBot from '../components/ChatBot'
 
 const Chatbot = () => {
     return (
+        <div>
 
         <ChatBot />
+        </div>
 
 
     )

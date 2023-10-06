@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "fs.promises": "^0.1.2",
     "next": "^13.5.3",
     "react": "^18.2.0",
     "react-chatbot-kit": "^2.1.2",
