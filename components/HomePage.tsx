@@ -4,6 +4,7 @@ import HeroSection from './HeroSection'
 import Section from './Section'
 import Footer from './Footer'
 import ChatBot from './ChatBot'
+// import ChatBots from '../pages/Chatbot'
 
 
 const HomePage = () => {
@@ -14,6 +15,7 @@ const HomePage = () => {
             <Section />
             <Footer />
             <ChatBot />
+            {/* <ChatBots/> */}
         </div>
     )
 }

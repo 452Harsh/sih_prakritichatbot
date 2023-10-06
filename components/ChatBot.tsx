@@ -15,8 +15,8 @@ const ChatBot = () => {
             </div>
             <Chatbot
                 config={config}
-                messageParser={MessageParser}
                 actionProvider={ActionProvider}
+                messageParser={MessageParser}
             />
         </div>
 
