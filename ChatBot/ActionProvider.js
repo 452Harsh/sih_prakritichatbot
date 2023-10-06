@@ -7,6 +7,12 @@ class ActionProvider{
     this.createClientMessage = createClientMessage;
   }
   
+  optionMessage=(option)=> {
+    
+     const userInput=this.createClientMessage(option);
+     this.addMessageToState(userInput);
+
+  }
   handleHello = () => {
     const message = this.createChatBotMessage("Great! Let's Discover Your Prakriti type. To do that,I'll ask you a series of questions. Please answer each one honestly, and we'll determine your Prakriti type based on your response");
     this.addMessageToState(message);

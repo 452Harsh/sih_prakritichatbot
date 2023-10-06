@@ -5,8 +5,8 @@ const Question = (props) => {
     const options=props.options;
     
     const handler = (event) => {
-      console.log(event.target.value);
       const next = props.next;
+      props.actionProvider.optionMessage(event.target.value);
       props.actionProvider[next]();
     };
 
