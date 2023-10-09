@@ -9,17 +9,11 @@ import ActionProvider from '../ChatBot/ActionProvider.js';
 
 const ChatBot = () => {
     return (
-        <div className='m-96'>
-            <div className='text-2xl'>
-                harsh
-            </div>
-            <Chatbot
-                config={config}
-                actionProvider={ActionProvider}
-                messageParser={MessageParser}
-            />
-        </div>
-
+        <Chatbot
+            config={config}
+            actionProvider={ActionProvider}
+            messageParser={MessageParser}
+        />
     )
 }
 

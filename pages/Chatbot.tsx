@@ -3,9 +3,8 @@ import ChatBot from '../components/ChatBot'
 
 const Chatbot = () => {
     return (
-        <div>
-
-        <ChatBot />
+        <div className='flex flex-col align-center items-center pt-48 bg-blue-400 pb-32'>
+            <ChatBot />
         </div>
 
 

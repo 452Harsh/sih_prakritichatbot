@@ -14,8 +14,6 @@ const HomePage = () => {
             <HeroSection />
             <Section />
             <Footer />
-            <ChatBot />
-            {/* <ChatBots/> */}
         </div>
     )
 }
